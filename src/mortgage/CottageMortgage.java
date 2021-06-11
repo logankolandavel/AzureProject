@@ -1,5 +1,6 @@
 package mortgage;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CottageMortgage {
@@ -9,6 +10,7 @@ public class CottageMortgage {
 	public void CottageMortgageLogin() {
 		
 		System.out.println("This is CottageMortgage login Page");	
+		Assert.assertTrue(false);
 	}
 
 	@Test 
