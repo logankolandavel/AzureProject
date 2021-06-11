@@ -7,11 +7,11 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="loans.CarLoans">
+      <class name="loans.PersonalLoans">
         <methods>
-          <include name="CarloansLogin"/>
+          <include name="PersonalLoansUserPage"/>
         </methods>
-      </class> <!-- loans.CarLoans -->
+      </class> <!-- loans.PersonalLoans -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

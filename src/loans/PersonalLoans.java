@@ -1,5 +1,6 @@
 package loans;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PersonalLoans {
@@ -15,6 +16,7 @@ public class PersonalLoans {
 	public void PersonalLoansUserPage() {
 		
 		System.out.println("This is PersonalLoans UserPage Page");	
+		Assert.assertTrue(false);
 	}
 	
 	@Test(priority = 1) 
