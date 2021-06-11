@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 10 20:08:35 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (75 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='studentLoans.CollegeStudentLoans.CollegeStudentLoansSummary()'><b>CollegeStudentLoansSummary</b><br>Test class: studentLoans.CollegeStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.CollegeStudentLoans@66f57048</td></tr>
+<tr>
+<td title='mortgage.HouseMortgage.HouseMortgageLogin()'><b>HouseMortgageLogin</b><br>Test class: mortgage.HouseMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.HouseMortgage@729d991e</td></tr>
+<tr>
+<td title='loans.PersonalLoans.PersonalLoansSummary()'><b>PersonalLoansSummary</b><br>Test class: loans.PersonalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.PersonalLoans@e15b7e8</td></tr>
+<tr>
+<td title='mortgage.HouseMortgage.HouseMortgageUserPage()'><b>HouseMortgageUserPage</b><br>Test class: mortgage.HouseMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.HouseMortgage@729d991e</td></tr>
+<tr>
+<td title='mortgage.CommercialMortgage.CommercialMortgageLogin()'><b>CommercialMortgageLogin</b><br>Test class: mortgage.CommercialMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CommercialMortgage@31fa1761</td></tr>
+<tr>
+<td title='studentLoans.PhdStudentLoans.PhdStudentLoansUserPage()'><b>PhdStudentLoansUserPage</b><br>Test class: studentLoans.PhdStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.PhdStudentLoans@32502377</td></tr>
+<tr>
+<td title='studentLoans.CollegeStudentLoans.CollegeStudentLoansLogin()'><b>CollegeStudentLoansLogin</b><br>Test class: studentLoans.CollegeStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.CollegeStudentLoans@66f57048</td></tr>
+<tr>
+<td title='studentLoans.CollegeStudentLoans.CollegeStudentLoansLogout()'><b>CollegeStudentLoansLogout</b><br>Test class: studentLoans.CollegeStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.CollegeStudentLoans@66f57048</td></tr>
+<tr>
+<td title='loans.MedicalLoans.MedicalLoansUserPage()'><b>MedicalLoansUserPage</b><br>Test class: loans.MedicalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.MedicalLoans@2c1b194a</td></tr>
+<tr>
+<td title='studentLoans.UniStudentLoans.UniStudentLoansUserPage()'><b>UniStudentLoansUserPage</b><br>Test class: studentLoans.UniStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.UniStudentLoans@957e06</td></tr>
+<tr>
+<td title='loans.PersonalLoans.PersonalLoansLogout()'><b>PersonalLoansLogout</b><br>Test class: loans.PersonalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.PersonalLoans@e15b7e8</td></tr>
+<tr>
+<td title='studentLoans.PhdStudentLoans.PhdStudentLoansSummary()'><b>PhdStudentLoansSummary</b><br>Test class: studentLoans.PhdStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.PhdStudentLoans@32502377</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansSummary()'><b>CarloansSummary</b><br>Test class: loans.CarLoans<br>Parameters: thirdsetusername, thirdpassword</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+<tr>
+<td title='mortgage.CottageMortgage.CottageMortgageUserPage()'><b>CottageMortgageUserPage</b><br>Test class: mortgage.CottageMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CottageMortgage@4dbb42b7</td></tr>
+<tr>
+<td title='studentLoans.UniStudentLoans.UniStudentLoansLogout()'><b>UniStudentLoansLogout</b><br>Test class: studentLoans.UniStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.UniStudentLoans@957e06</td></tr>
+<tr>
+<td title='mortgage.CottageMortgage.CottageMortgageLogout()'><b>CottageMortgageLogout</b><br>Test class: mortgage.CottageMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CottageMortgage@4dbb42b7</td></tr>
+<tr>
+<td title='mortgage.CottageMortgage.CottageMortgageLogin()'><b>CottageMortgageLogin</b><br>Test class: mortgage.CottageMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CottageMortgage@4dbb42b7</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansSummary()'><b>CarloansSummary</b><br>Test class: loans.CarLoans<br>Parameters: secondsetusername, secondpassword</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+<tr>
+<td title='mortgage.CottageMortgage.CottageMortgageSummary()'><b>CottageMortgageSummary</b><br>Test class: mortgage.CottageMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CottageMortgage@4dbb42b7</td></tr>
+<tr>
+<td title='loans.MedicalLoans.MedicalLoansLogout()'><b>MedicalLoansLogout</b><br>Test class: loans.MedicalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.MedicalLoans@2c1b194a</td></tr>
+<tr>
+<td title='mortgage.CommercialMortgage.CommercialMortgageUserPage()'><b>CommercialMortgageUserPage</b><br>Test class: mortgage.CommercialMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CommercialMortgage@31fa1761</td></tr>
+<tr>
+<td title='loans.MedicalLoans.MedicalLoansSummary()'><b>MedicalLoansSummary</b><br>Test class: loans.MedicalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.MedicalLoans@2c1b194a</td></tr>
+<tr>
+<td title='mortgage.HouseMortgage.HouseMortgageSummary()'><b>HouseMortgageSummary</b><br>Test class: mortgage.HouseMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.HouseMortgage@729d991e</td></tr>
+<tr>
+<td title='mortgage.HouseMortgage.HouseMortgageLogout()'><b>HouseMortgageLogout</b><br>Test class: mortgage.HouseMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.HouseMortgage@729d991e</td></tr>
+<tr>
+<td title='loans.PersonalLoans.PersonalLoansLogin()'><b>PersonalLoansLogin</b><br>Test class: loans.PersonalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.PersonalLoans@e15b7e8</td></tr>
+<tr>
+<td title='studentLoans.UniStudentLoans.UniStudentLoansSummary()'><b>UniStudentLoansSummary</b><br>Test class: studentLoans.UniStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.UniStudentLoans@957e06</td></tr>
+<tr>
+<td title='studentLoans.PhdStudentLoans.PhdStudentLoansLogin()'><b>PhdStudentLoansLogin</b><br>Test class: studentLoans.PhdStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.PhdStudentLoans@32502377</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansLogin()'><b>CarloansLogin</b><br>Test class: loans.CarLoans<br>Parameters: OWNTEXT</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+<tr>
+<td title='mortgage.CommercialMortgage.CommercialMortgageSummary()'><b>CommercialMortgageSummary</b><br>Test class: mortgage.CommercialMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CommercialMortgage@31fa1761</td></tr>
+<tr>
+<td title='studentLoans.UniStudentLoans.UniStudentLoansLogin()'><b>UniStudentLoansLogin</b><br>Test class: studentLoans.UniStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.UniStudentLoans@957e06</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansUserPage()'><b>CarloansUserPage</b><br>Test class: loans.CarLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+<tr>
+<td title='loans.PersonalLoans.PersonalLoansUserPage()'><b>PersonalLoansUserPage</b><br>Test class: loans.PersonalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.PersonalLoans@e15b7e8</td></tr>
+<tr>
+<td title='studentLoans.CollegeStudentLoans.CollegeStudentLoansUserPage()'><b>CollegeStudentLoansUserPage</b><br>Test class: studentLoans.CollegeStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.CollegeStudentLoans@66f57048</td></tr>
+<tr>
+<td title='studentLoans.PhdStudentLoans.PhdStudentLoansLogout()'><b>PhdStudentLoansLogout</b><br>Test class: studentLoans.PhdStudentLoans</td>
+<td></td>
+<td>0</td>
+<td>studentLoans.PhdStudentLoans@32502377</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansLogout()'><b>CarloansLogout</b><br>Test class: loans.CarLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+<tr>
+<td title='mortgage.CommercialMortgage.CommercialMortgageLogout()'><b>CommercialMortgageLogout</b><br>Test class: mortgage.CommercialMortgage</td>
+<td></td>
+<td>0</td>
+<td>mortgage.CommercialMortgage@31fa1761</td></tr>
+<tr>
+<td title='loans.MedicalLoans.MedicalLoansLogin()'><b>MedicalLoansLogin</b><br>Test class: loans.MedicalLoans</td>
+<td></td>
+<td>0</td>
+<td>loans.MedicalLoans@2c1b194a</td></tr>
+<tr>
+<td title='loans.CarLoans.CarloansSummary()'><b>CarloansSummary</b><br>Test class: loans.CarLoans<br>Parameters: firstsetusername, firstpassword</td>
+<td></td>
+<td>0</td>
+<td>loans.CarLoans@550dbc7a</td></tr>
+</table><p>
+</body>
+</html>

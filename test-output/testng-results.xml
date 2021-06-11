@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T13:53:17 EDT" name="Suite" finished-at="2021-05-12T13:53:17 EDT" duration-ms="61">
+    <groups>
+    </groups>
+    <test started-at="2021-05-12T13:53:17 EDT" name="Test" finished-at="2021-05-12T13:53:17 EDT" duration-ms="61">
+      <class name="studentLoans.UniStudentLoans">
+        <test-method signature="UniStudentLoansLogin()[pri:0, instance:studentLoans.UniStudentLoans@7c711375]" started-at="2021-05-12T13:53:17 EDT" name="UniStudentLoansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UniStudentLoansLogin -->
+        <test-method signature="UniStudentLoansLogout()[pri:0, instance:studentLoans.UniStudentLoans@7c711375]" started-at="2021-05-12T13:53:17 EDT" name="UniStudentLoansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UniStudentLoansLogout -->
+        <test-method signature="UniStudentLoansSummary()[pri:0, instance:studentLoans.UniStudentLoans@7c711375]" started-at="2021-05-12T13:53:17 EDT" name="UniStudentLoansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UniStudentLoansSummary -->
+        <test-method signature="UniStudentLoansUserPage()[pri:0, instance:studentLoans.UniStudentLoans@7c711375]" started-at="2021-05-12T13:53:17 EDT" name="UniStudentLoansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UniStudentLoansUserPage -->
+      </class> <!-- studentLoans.UniStudentLoans -->
+      <class name="mortgage.CommercialMortgage">
+        <test-method signature="CommercialMortgageLogin()[pri:0, instance:mortgage.CommercialMortgage@5a56cdac]" started-at="2021-05-12T13:53:17 EDT" name="CommercialMortgageLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommercialMortgageLogin -->
+        <test-method signature="CommercialMortgageLogout()[pri:0, instance:mortgage.CommercialMortgage@5a56cdac]" started-at="2021-05-12T13:53:17 EDT" name="CommercialMortgageLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommercialMortgageLogout -->
+        <test-method signature="CommercialMortgageUserPage()[pri:0, instance:mortgage.CommercialMortgage@5a56cdac]" started-at="2021-05-12T13:53:17 EDT" name="CommercialMortgageUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommercialMortgageUserPage -->
+        <test-method signature="CommercialMortgageSummary()[pri:0, instance:mortgage.CommercialMortgage@5a56cdac]" started-at="2021-05-12T13:53:17 EDT" name="CommercialMortgageSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommercialMortgageSummary -->
+      </class> <!-- mortgage.CommercialMortgage -->
+      <class name="loans.PersonalLoans">
+        <test-method signature="PersonalLoansLogin()[pri:1, instance:loans.PersonalLoans@1e04fa0a]" started-at="2021-05-12T13:53:17 EDT" name="PersonalLoansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoansLogin -->
+        <test-method signature="PersonalLoansSummary()[pri:1, instance:loans.PersonalLoans@1e04fa0a]" started-at="2021-05-12T13:53:17 EDT" name="PersonalLoansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoansSummary -->
+        <test-method signature="PersonalLoansUserPage()[pri:1, instance:loans.PersonalLoans@1e04fa0a]" started-at="2021-05-12T13:53:17 EDT" name="PersonalLoansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoansUserPage -->
+        <test-method signature="PersonalLoansLogout()[pri:2, instance:loans.PersonalLoans@1e04fa0a]" started-at="2021-05-12T13:53:17 EDT" name="PersonalLoansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoansLogout -->
+      </class> <!-- loans.PersonalLoans -->
+      <class name="studentLoans.PhdStudentLoans">
+        <test-method signature="PhdStudentLoansLogin()[pri:0, instance:studentLoans.PhdStudentLoans@57cf54e1]" started-at="2021-05-12T13:53:17 EDT" name="PhdStudentLoansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhdStudentLoansLogin -->
+        <test-method signature="PhdStudentLoansLogout()[pri:0, instance:studentLoans.PhdStudentLoans@57cf54e1]" started-at="2021-05-12T13:53:17 EDT" name="PhdStudentLoansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhdStudentLoansLogout -->
+        <test-method signature="PhdStudentLoansSummary()[pri:0, instance:studentLoans.PhdStudentLoans@57cf54e1]" started-at="2021-05-12T13:53:17 EDT" name="PhdStudentLoansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhdStudentLoansSummary -->
+        <test-method signature="PhdStudentLoansUserPage()[pri:0, instance:studentLoans.PhdStudentLoans@57cf54e1]" started-at="2021-05-12T13:53:17 EDT" name="PhdStudentLoansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhdStudentLoansUserPage -->
+      </class> <!-- studentLoans.PhdStudentLoans -->
+      <class name="mortgage.HouseMortgage">
+        <test-method signature="HouseMortgageLogin()[pri:0, instance:mortgage.HouseMortgage@593aaf41]" started-at="2021-05-12T13:53:17 EDT" name="HouseMortgageLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseMortgageLogin -->
+        <test-method signature="HouseMortgageLogout()[pri:0, instance:mortgage.HouseMortgage@593aaf41]" started-at="2021-05-12T13:53:17 EDT" name="HouseMortgageLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseMortgageLogout -->
+        <test-method signature="HouseMortgageSummary()[pri:0, instance:mortgage.HouseMortgage@593aaf41]" started-at="2021-05-12T13:53:17 EDT" name="HouseMortgageSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseMortgageSummary -->
+        <test-method signature="HouseMortgageUserPage()[pri:0, instance:mortgage.HouseMortgage@593aaf41]" started-at="2021-05-12T13:53:17 EDT" name="HouseMortgageUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseMortgageUserPage -->
+      </class> <!-- mortgage.HouseMortgage -->
+      <class name="loans.MedicalLoans">
+        <test-method signature="MedicalLoansLogin()[pri:0, instance:loans.MedicalLoans@5b03b9fe]" started-at="2021-05-12T13:53:17 EDT" name="MedicalLoansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalLoansLogin -->
+        <test-method signature="MedicalLoansLogout()[pri:0, instance:loans.MedicalLoans@5b03b9fe]" started-at="2021-05-12T13:53:17 EDT" name="MedicalLoansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalLoansLogout -->
+        <test-method signature="MedicalLoansSummary()[pri:0, instance:loans.MedicalLoans@5b03b9fe]" started-at="2021-05-12T13:53:17 EDT" name="MedicalLoansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalLoansSummary -->
+        <test-method signature="MedicalLoansUserPage()[pri:0, instance:loans.MedicalLoans@5b03b9fe]" started-at="2021-05-12T13:53:17 EDT" name="MedicalLoansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalLoansUserPage -->
+      </class> <!-- loans.MedicalLoans -->
+      <class name="mortgage.CottageMortgage">
+        <test-method signature="CottageMortgageLogin()[pri:0, instance:mortgage.CottageMortgage@37d4349f]" started-at="2021-05-12T13:53:17 EDT" name="CottageMortgageLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CottageMortgageLogin -->
+        <test-method signature="CottageMortgageLogout()[pri:0, instance:mortgage.CottageMortgage@37d4349f]" started-at="2021-05-12T13:53:17 EDT" name="CottageMortgageLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CottageMortgageLogout -->
+        <test-method signature="CottageMortgageSummary()[pri:0, instance:mortgage.CottageMortgage@37d4349f]" started-at="2021-05-12T13:53:17 EDT" name="CottageMortgageSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CottageMortgageSummary -->
+        <test-method signature="CottageMortgageUserPage()[pri:0, instance:mortgage.CottageMortgage@37d4349f]" started-at="2021-05-12T13:53:17 EDT" name="CottageMortgageUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CottageMortgageUserPage -->
+      </class> <!-- mortgage.CottageMortgage -->
+      <class name="studentLoans.CollegeStudentLoans">
+        <test-method signature="CollegeStudentLoansLogin()[pri:0, instance:studentLoans.CollegeStudentLoans@434a63ab]" started-at="2021-05-12T13:53:17 EDT" name="CollegeStudentLoansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollegeStudentLoansLogin -->
+        <test-method signature="CollegeStudentLoansLogout()[pri:0, instance:studentLoans.CollegeStudentLoans@434a63ab]" started-at="2021-05-12T13:53:17 EDT" name="CollegeStudentLoansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollegeStudentLoansLogout -->
+        <test-method signature="CollegeStudentLoansSummary()[pri:0, instance:studentLoans.CollegeStudentLoans@434a63ab]" started-at="2021-05-12T13:53:17 EDT" name="CollegeStudentLoansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollegeStudentLoansSummary -->
+        <test-method signature="CollegeStudentLoansUserPage()[pri:0, instance:studentLoans.CollegeStudentLoans@434a63ab]" started-at="2021-05-12T13:53:17 EDT" name="CollegeStudentLoansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollegeStudentLoansUserPage -->
+      </class> <!-- studentLoans.CollegeStudentLoans -->
+      <class name="loans.CarLoans">
+        <test-method signature="CarloansLogin()[pri:0, instance:loans.CarLoans@6e0f5f7f]" started-at="2021-05-12T13:53:17 EDT" name="CarloansLogin" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarloansLogin -->
+        <test-method signature="CarloansLogout()[pri:0, instance:loans.CarLoans@6e0f5f7f]" started-at="2021-05-12T13:53:17 EDT" name="CarloansLogout" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarloansLogout -->
+        <test-method signature="CarloansSummary()[pri:0, instance:loans.CarLoans@6e0f5f7f]" started-at="2021-05-12T13:53:17 EDT" name="CarloansSummary" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarloansSummary -->
+        <test-method signature="CarloansUserPage()[pri:0, instance:loans.CarLoans@6e0f5f7f]" started-at="2021-05-12T13:53:17 EDT" name="CarloansUserPage" finished-at="2021-05-12T13:53:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarloansUserPage -->
+      </class> <!-- loans.CarLoans -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
